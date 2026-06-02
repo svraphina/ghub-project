@@ -1,0 +1,124 @@
+The little transformer sat beside a window and learned the rhythm of the rain.
+Every drop tapped out a pattern, and every pattern hinted at the next one.
+
+In the morning, the workshop filled with warm light. A notebook lay open on the
+desk, covered in small observations:
+
+Language is a river of guesses.
+Attention is the habit of looking back before moving forward.
+A good model listens to context, then chooses a careful next token.
+
+The apprentice read the notes aloud. "If I see the word moon, I may expect
+silver, night, tide, or quiet. If I see the word garden, I may expect leaf,
+soil, gate, or bloom. Meaning arrives from nearby words and distant memories."
+
+So the transformer practiced. It read stories about maps, music, bread, clocks,
+lanterns, libraries, and cities at dusk. It learned that questions often invite
+answers, that commas pause but do not finish, and that a sentence can turn like
+a path around a hill.
+
+At noon, the apprentice wrote:
+
+The model begins with tokens.
+Tokens become vectors.
+Vectors gather position.
+Self-attention compares each place with the places before it.
+The feed-forward network reshapes each thought.
+Layer normalization keeps the signal steady.
+The final projection turns hidden states into scores for the next token.
+
+Then the apprentice smiled and added a tiny poem:
+
+A seed of text,
+a field of signs,
+a line predicts
+the next few lines.
+
+By evening, the transformer could not write perfectly, but it could continue a
+thought. It could echo the tone of the corpus. It could surprise its maker with
+phrases that almost sounded remembered.
+
+The lesson was simple: build the smallest working thing, teach it with patience,
+save what it learns, and ask it to speak again.
+
+The apprentice began a second page.
+
+The model reads a prompt.
+The model turns the prompt into tokens.
+The model looks at the earlier tokens.
+The model predicts the next token.
+The next token becomes part of the prompt.
+The process repeats.
+
+Attention is a table of questions and answers.
+Each token asks a question.
+Each earlier token offers an answer.
+The model compares the question with the answers.
+The strongest answers guide the next hidden state.
+
+The model cannot see the future.
+The causal mask closes the future.
+The model can only use the present token and the tokens before it.
+This makes the decoder useful for language generation.
+
+Small models need small lessons.
+A small corpus should repeat important ideas.
+A small vocabulary should reuse useful words.
+A small transformer should learn clear patterns before it learns rare phrases.
+
+The apprentice wrote examples:
+
+The prompt begins with a word.
+The word becomes a token.
+The token becomes a vector.
+The vector gathers position.
+The position tells the model where the token lives.
+
+The first block studies context.
+The second block studies the result.
+The attention path mixes information.
+The feed forward path reshapes information.
+The residual path preserves information.
+
+During training, the model guesses.
+The loss measures the guess.
+The gradient corrects the weights.
+The optimizer takes a small step.
+Many small steps make a useful model.
+
+During inference, the model samples.
+A low temperature makes careful text.
+A high temperature makes surprising text.
+Top k sampling keeps likely choices.
+The prompt and the sample become one growing sequence.
+
+The apprentice tested short prompts:
+
+Prompt: The model
+Answer: The model reads tokens and predicts the next token.
+
+Prompt: Attention
+Answer: Attention lets each token look back at useful tokens.
+
+Prompt: The corpus
+Answer: The corpus teaches the model the style of the text.
+
+Prompt: The decoder
+Answer: The decoder writes from left to right.
+
+Prompt: A small transformer
+Answer: A small transformer can learn simple patterns with patience.
+
+The workshop grew quiet.
+The rain returned.
+The model read the page again.
+It found the words prompt, token, attention, context, loss, gradient, and sample.
+It found them many times.
+The repeated words became familiar.
+The familiar words became easier to predict.
+
+The apprentice did not expect magic.
+The apprentice expected practice.
+The model would not know the world.
+The model would know this little corpus.
+That was enough for a first language model.
